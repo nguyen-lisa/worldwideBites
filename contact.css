@@ -5,3 +5,9 @@ body {
 form {
     display: inline-block;
 }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
